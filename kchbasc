@@ -1,0 +1,100 @@
+[90m= [39m[34;4mIlluminate\Support\Collection[39;24m {#5189
+    [34mall[39m: [
+      [34m1[39m => [34;4mApp\Models\Post[39;24m {#5191
+        +[1mtitle[22m: "[32mMy Fourth Post[39m",
+        +[1mexcerpt[22m: "[32mLorem ipsum dolor sit amet consectetur adipisicing elit.[39m",
+        +[1mdate[22m: [35m1621555200[39m,
+        +[1mbody[22m: """
+          \n
+          [32m<p>[39m\n
+          [32m    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est molestiae[39m\n
+          [32m    provident fugiat quisquam unde doloremque aperiam eum nihil porro[39m\n
+          [32m    reprehenderit, ipsa labore ab commodi accusantium. Et asperiores incidunt in[39m\n
+          [32m    quae. Perspiciatis accusantium minima sed amet asperiores, vel assumenda est[39m\n
+          [32m    necessitatibus animi earum, ullam architecto reiciendis soluta quos velit[39m\n
+          [32m    atque ea temporibus cupiditate! Alias voluptatibus consequatur dolores[39m\n
+          [32m    asperiores possimus nostrum optio. Consequatur nesciunt sunt id iste ratione[39m\n
+          [32m    nostrum deleniti doloremque vitae? Aliquam officiis excepturi odit libero,[39m\n
+          [32m    pariatur velit quia eveniet architecto! Aspernatur ducimus necessitatibus[39m\n
+          [32m    explicabo est atque totam! Voluptatum, minima illum! Nisi nobis laudantium[39m\n
+          [32m    nihil laboriosam cum ipsa incidunt perferendis rerum omnis totam quos porro[39m\n
+          [32m    harum vel illum veritatis nulla possimus repellat corporis sint fugiat[39m\n
+          [32m    aperiam, maiores ab voluptatem culpa? Vel.[39m\n
+          [32m</p>[39m\n
+          """,
+        +[1mslug[22m: "[32mmy-fourth-post[39m",
+      },
+      [34m3[39m => [34;4mApp\Models\Post[39;24m {#5187
+        +[1mtitle[22m: "[32mMy Third Post[39m",
+        +[1mexcerpt[22m: "[32mLorem ipsum dolor sit amet consectetur adipisicing elit.[39m",
+        +[1mdate[22m: [35m1621468800[39m,
+        +[1mbody[22m: """
+          \n
+          [32m<p>[39m\n
+          [32m    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est molestiae[39m\n
+          [32m    provident fugiat quisquam unde doloremque aperiam eum nihil porro[39m\n
+          [32m    reprehenderit, ipsa labore ab commodi accusantium. Et asperiores incidunt in[39m\n
+          [32m    quae. Perspiciatis accusantium minima sed amet asperiores, vel assumenda est[39m\n
+          [32m    necessitatibus animi earum, ullam architecto reiciendis soluta quos velit[39m\n
+          [32m    atque ea temporibus cupiditate! Alias voluptatibus consequatur dolores[39m\n
+          [32m    asperiores possimus nostrum optio. Consequatur nesciunt sunt id iste ratione[39m\n
+          [32m    nostrum deleniti doloremque vitae? Aliquam officiis excepturi odit libero,[39m\n
+          [32m    pariatur velit quia eveniet architecto! Aspernatur ducimus necessitatibus[39m\n
+          [32m    explicabo est atque totam! Voluptatum, minima illum! Nisi nobis laudantium[39m\n
+          [32m    nihil laboriosam cum ipsa incidunt perferendis rerum omnis totam quos porro[39m\n
+          [32m    harum vel illum veritatis nulla possimus repellat corporis sint fugiat[39m\n
+          [32m    aperiam, maiores ab voluptatem culpa? Vel.[39m\n
+          [32m</p>[39m\n
+          """,
+        +[1mslug[22m: "[32mmy-third-post[39m",
+      },
+      [34m2[39m => [34;4mApp\Models\Post[39;24m {#5185
+        +[1mtitle[22m: "[32mMy Second Post[39m",
+        +[1mexcerpt[22m: "[32mLorem ipsum dolor, sit amet consectetur adipisicing elit.[39m",
+        +[1mdate[22m: [35m1621382400[39m,
+        +[1mbody[22m: """
+          \n
+          [32m<p>[39m\n
+          [32m    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus repellat[39m\n
+          [32m    fuga corrupti placeat error iste laboriosam laudantium exercitationem[39m\n
+          [32m    consequatur iusto nesciunt consequuntur sunt, at quisquam enim nulla[39m\n
+          [32m    delectus id perferendis? Voluptatum repellendus delectus ea, perferendis[39m\n
+          [32m    dolore quibusdam mollitia corporis blanditiis placeat pariatur, non nihil[39m\n
+          [32m    eaque a. Dolore vel, velit vitae, dignissimos ullam accusamus quo nemo ipsum[39m\n
+          [32m    perferendis, quod quos non. Nobis, porro! Mollitia porro eos eius,[39m\n
+          [32m    necessitatibus consequuntur eveniet dolorem excepturi, officia sint quas,[39m\n
+          [32m    perspiciatis quod exercitationem maiores. Qui veniam similique commodi! Illo[39m\n
+          [32m    aperiam, nobis laudantium aliquid provident hic rem. Voluptatem unde quaerat[39m\n
+          [32m    perferendis fugit voluptate, nisi expedita est quia et qui quasi cumque[39m\n
+          [32m    itaque veniam asperiores ab doloribus vitae! Quis aut similique quisquam[39m\n
+          [32m    mollitia soluta. Porro unde animi quae?[39m\n
+          [32m</p>[39m\n
+          """,
+        +[1mslug[22m: "[32mmy-second-post[39m",
+      },
+      [34m0[39m => [34;4mApp\Models\Post[39;24m {#5186
+        +[1mtitle[22m: "[32mMy First Post[39m",
+        +[1mexcerpt[22m: "[32mLorem ipsum dolor sit amet, consectetur adipisicing elit.[39m",
+        +[1mdate[22m: [35m1621296000[39m,
+        +[1mbody[22m: """
+          \n
+          [32m<p>[39m\n
+          [32m    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae est quos[39m\n
+          [32m    reprehenderit expedita fuga illo quas, perspiciatis nulla tenetur obcaecati[39m\n
+          [32m    quo sunt necessitatibus quibusdam, maxime dolor fugiat ea a omnis. Illum[39m\n
+          [32m    dolorum, sed nostrum enim aliquid alias, quam voluptas, facere officia nihil[39m\n
+          [32m    nobis tenetur? Consectetur error cupiditate molestias aut cum nihil minus[39m\n
+          [32m    accusamus quos, eius, qui quam esse? Distinctio, ut. Esse eaque ipsum nulla.[39m\n
+          [32m    Optio magni dolorum accusamus quaerat sed sapiente, ducimus illo at fugit[39m\n
+          [32m    in? Distinctio perspiciatis quibusdam fugiat nemo dolores error vitae minima[39m\n
+          [32m    aspernatur eum similique, dolore veniam. Asperiores natus porro quae esse in[39m\n
+          [32m    nesciunt reiciendis architecto eum maiores quasi officiis, consectetur[39m\n
+          [32m    dolore expedita impedit rerum ipsam ratione alias reprehenderit quas sed[39m\n
+          [32m    atque veritatis laudantium ipsum! Perspiciatis, odio.[39m\n
+          [32m</p>[39m
+          """,
+        +[1mslug[22m: "[32mmy-first-post[39m",
+      },
+    ],
+  }
+
