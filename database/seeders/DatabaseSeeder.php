@@ -2,7 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\Models\Category;
 use App\Models\User;
+use App\Models\Post;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -13,11 +15,58 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
+        $personal = Category::factory()->create([
+            'name' => 'Personal',
+            'slug' => 'personal'
+        ]);
+        $work = Category::factory()->create([
+            'name' => 'Work',
+            'slug' => 'work'
+        ]);
+        $hobbies = Category::factory()->create([
+            'name' => 'Hobbies',
+            'slug' => 'hobbies'
+        ]);
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+        $user1 = User::factory()->create();
+        $user2 = User::factory()->create();
+        $user3 = User::factory()->create();
+
+        Post::factory()->create([
+            'user_id' => $user1->id,
+            'category_id' => $personal->id
+        ]);
+        Post::factory()->create([
+            'user_id' => $user1->id,
+            'category_id' => $work->id
+        ]);
+        Post::factory()->create([
+            'user_id' => $user1->id,
+            'category_id' => $hobbies->id
+        ]);
+        Post::factory()->create([
+            'user_id' => $user2->id,
+            'category_id' => $personal->id
+        ]);
+        Post::factory()->create([
+            'user_id' => $user2->id,
+            'category_id' => $work->id
+        ]);
+        Post::factory()->create([
+            'user_id' => $user2->id,
+            'category_id' => $hobbies->id
+        ]);
+        Post::factory()->create([
+            'user_id' => $user3->id,
+            'category_id' => $personal->id
+        ]);
+        Post::factory()->create([
+            'user_id' => $user3->id,
+            'category_id' => $work->id
+        ]);
+        Post::factory()->create([
+            'user_id' => $user3->id,
+            'category_id' => $hobbies->id
         ]);
     }
 }

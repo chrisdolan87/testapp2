@@ -2,7 +2,8 @@ body {
     background: white;
     color: black;
     max-width: 600px;
-    margin: auto;
+    min-height: 100vh;
+    margin: auto auto 200px auto;
     font-family: sans-serif;
 }
 
